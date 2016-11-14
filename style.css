@@ -5,7 +5,7 @@ html {
 .container {
     margin-top: 50px;
     margin-right: 130px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-left: 100px;
 }
 /*This is for the home page*/
@@ -59,7 +59,7 @@ a:visited {
     color: #781426;
     position: absolute;
     top: 450px;
-    right: 110px;
+    right: 150px;
     font-family: 'Shrikhand', cursive, serif;
     font-size: 20px;
 }
@@ -67,13 +67,15 @@ a:visited {
 
 /*start of menu page*/
 .menuimg {
+    width: 1025px;
     margin-top: 50px;
+    margin-left: 35px;
     border: 5px double #781426;
 }
 /*end of menu page*/
 
 /*start of contact page*/
-p {
+ p {
     color: #FFCAAA;
     background-color: #781426;
     margin-right: 700px;
@@ -117,13 +119,13 @@ form {
 .familypic {
     border: 5px double #781426;
     margin-top: -40px;
-    margin-left: 100px;
+    margin-left: 150px;
     width: 800px
 }
 /*end of contact page*/
 
 #footer {
-    width: 1050px;
+    width: 1100px;
     height: 50px;
     background-color: #689D99;
     position: absolute;
@@ -136,7 +138,7 @@ form {
 
 
 #footer-contact {
-    width: 1050px;
+    width: 1100px;
     height: 50px;
     background-color: #689D99;
     position: absolute;
@@ -145,4 +147,11 @@ form {
     font-family: 'Shrikhand', cursive, serif;
     text-align: center;
     font-size: 40px;
+}
+
+h6 {
+    text-align: right;
+    font-size: 15px;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
