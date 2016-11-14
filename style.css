@@ -1,0 +1,148 @@
+html {
+    background-image: url(images/background-1685147_1920.jpg)
+}
+
+.container {
+    margin-top: 50px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+/*This is for the home page*/
+.header {
+    margin-bottom: 30px;
+}
+/*Start of nav bar*/
+.nav {
+    background-color: #689D99;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    color: #FFCAAA;
+    font-size: 40px;
+    display: inline;
+    padding: 95px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive, serif;
+}
+
+.nav li a:hover,
+a:active {
+    background-color: #0D4E49;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FFCAAA;
+}
+
+a:visited {
+    color: #92D18B;
+}
+/*End of nav bar*/
+
+
+.sidebar img {
+    margin-top: 50px;
+    border: 5px double #781426;
+}
+
+.main {
+    color: #781426;
+    position: absolute;
+    top: 450px;
+    right: 110px;
+    font-family: 'Shrikhand', cursive, serif;
+    font-size: 20px;
+}
+/*end of home page*/
+
+/*start of menu page*/
+.menuimg {
+    margin-top: 50px;
+    border: 5px double #781426;
+}
+/*end of menu page*/
+
+/*start of contact page*/
+p {
+    color: #FFCAAA;
+    background-color: #781426;
+    margin-right: 700px;
+    font-family: 'Shrikhand', cursive, serif;
+    font-size: 25px;
+    margin-top: 35px;
+    border: 5px solid #781426;
+}
+
+h2 {
+    color: #FFCAAA;
+    background-color: #781426;
+    font-family: 'Shrikhand', cursive, serif;
+    float: right;
+    margin-top: -273px;
+    margin-right: 310px;
+    border: 5px solid #781426;
+}
+
+.name-emailbox {
+    width: 400px;
+}
+
+.messagebox {
+    width: 600px;
+    height: 100px;
+}
+
+form {
+    font-size: 20px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    color: #FFCAAA;
+    background-color: #781426;
+    font-family: 'Shrikhand', cursive, serif;
+    border: 5px solid #781426;
+}
+
+.familypic {
+    border: 5px double #781426;
+    margin-top: -40px;
+    margin-left: 100px;
+    width: 800px
+}
+/*end of contact page*/
+
+#footer {
+    width: 1050px;
+    height: 50px;
+    background-color: #689D99;
+    position: absolute;
+    margin-top: 50px;
+    color: #FFCAAA;
+    font-family: 'Shrikhand', cursive, serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#footer-contact {
+    width: 1050px;
+    height: 50px;
+    background-color: #689D99;
+    position: absolute;
+    margin-top: 50px;
+    color: #FFCAAA;
+    font-family: 'Shrikhand', cursive, serif;
+    text-align: center;
+    font-size: 40px;
+}
